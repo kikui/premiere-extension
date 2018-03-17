@@ -1,0 +1,15 @@
+{
+"name":"Etat Lunaire",
+"manifest_version": 2,
+"version":"1.0",
+"description":"Image de la Lune en temps réel",
+"background": {
+    "persistent": false,
+    "scripts": ["script.js"]
+  },
+"browser_action":
+	{
+		"default_icon": "icone.png",
+		"default_popup":"lune.html"
+	}
+}
